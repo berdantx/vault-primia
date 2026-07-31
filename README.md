@@ -43,6 +43,7 @@ O Claude vai te entrevistar em texto livre, montar o vault personalizado para o 
 | `conteudo/` | Ideias, roteiros, transcrições (é aqui que o Claude aprende seu tom de voz) |
 | `lancamentos/` | Cada lançamento ou projeto grande em sua subpasta |
 | `alunos/` | Alunos, mentorados ou clientes: histórico e próximos passos |
+| `reunioes/` | Resumos de calls processadas pelo `/reuniao` |
 | `pesquisa/` | Referências, swipes e materiais de estudo |
 | `pessoal/` | Metas, saúde, finanças, vida fora do trabalho |
 | `arquivo/` | Trabalho concluído. Nunca deletado, só movido |
@@ -57,6 +58,10 @@ Cada pasta tem um `_sobre.md` com a regra dela, que o Claude lê e respeita.
 | `/diario` | Abre o dia: revisa pendências e define o foco |
 | `/tldr` | Fecha a sessão: salva o resumo na pasta certa |
 | `/conteudo` | Cria ideias e roteiros no seu tom de voz |
+| `/humanizar` | Tira a cara de IA de qualquer texto |
+| `/pagina` | Cria uma página pronta: captura, obrigado, vendas |
+| `/reuniao` | Transcrição de call vira decisões e próximos passos |
+| `/audiencia` | Comentários e pesquisas viram direção de conteúdo e oferta |
 
 ## O arquivo mais importante
 

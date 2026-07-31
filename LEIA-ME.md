@@ -30,6 +30,7 @@ Os comandos (`/setup`, `/diario`) só funcionam se o VS Code estiver aberto **ex
 | `conteudo/` | Ideias, roteiros, carrosséis, calendário editorial. |
 | `lancamentos/` | Cada lançamento ou projeto grande tem sua subpasta. |
 | `alunos/` | Seus alunos, mentorados ou clientes: histórico e próximos passos. |
+| `reunioes/` | Resumos de calls e reuniões, gerados pelo `/reuniao`. |
 | `pesquisa/` | Referências, swipes, materiais de estudo. |
 | `pessoal/` | Metas, saúde, finanças, vida fora do trabalho. |
 | `arquivo/` | Tudo que acabou. Nunca delete: mova pra cá. |
@@ -38,10 +39,19 @@ Cada pasta tem um arquivo `_sobre.md` explicando as regras dela. Pode renomear a
 
 ## Comandos prontos
 
+**Comece por estes:**
 - `/setup` monta o vault pra você: entrevista em texto livre e preenche tudo (rode uma vez, no começo).
 - `/diario` abre o seu dia: lê pendências, revisa o que ficou de ontem e define o foco.
 - `/tldr` fecha a sessão: salva um resumo do que foi feito na pasta certa.
-- `/conteudo` gera ideias e roteiros de conteúdo usando o contexto do seu vault.
+
+**Para produzir:**
+- `/conteudo` gera ideias e roteiros no seu tom de voz.
+- `/humanizar` tira a cara de IA de qualquer texto (cole o texto e mande).
+- `/pagina` cria uma página pronta: captura, obrigado, vendas.
+
+**Para inteligência do negócio:**
+- `/reuniao` transforma transcrição de call em decisões e próximos passos, e ainda atualiza a ficha do aluno.
+- `/audiencia` lê comentários, DMs ou respostas de pesquisa e mostra o que seu público está pedindo.
 
 ## Regra de ouro
 
