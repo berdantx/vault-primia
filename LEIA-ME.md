@@ -6,9 +6,11 @@ Este é o seu vault: uma pasta de arquivos de texto que vira a memória central 
 
 Os comandos (`/setup`, `/diario`) só funcionam se o VS Code estiver aberto **exatamente nesta pasta**, a que contém este arquivo LEIA-ME.md.
 
-Como conferir: no explorador do VS Code (barra lateral esquerda), você tem que ver `CLAUDE.md`, `LEIA-ME.md` e as pastas `inbox`, `diario`, `conteudo`. Se você vê o nome de uma pasta com o vault dentro dela, está um nível acima: feche e abra de novo em File → Open Folder, entrando na pasta certa.
+**Como conferir em 5 segundos:** na barra lateral esquerda do VS Code você tem que ver `CLAUDE.md`, `LEIA-ME.md` e as pastas `inbox`, `diario`, `conteudo`. Se em vez disso você vê **o nome de uma pasta só** (com tudo isso dentro dela), você está um nível acima. Feche e abra de novo em File → Open Folder, entrando nessa pasta.
 
-> Se digitar `/setup` e aparecer "comando não existente", é isso: pasta errada. Não é erro seu nem do sistema.
+**Quem usou `git clone` cai nisso sempre:** o git cria uma subpasta nova com o nome do repositório. Se você rodou o clone dentro de `meus-projetos`, o vault ficou em `meus-projetos/vault-primia`. É essa pasta de dentro que você abre no VS Code, não a de fora.
+
+> Digitou `/setup` e apareceu "comando não existente"? É isso: pasta errada. Não é erro seu nem do sistema.
 
 ## Primeiros passos (faça nessa ordem)
 
