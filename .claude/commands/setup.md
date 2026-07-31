@@ -65,4 +65,6 @@ O que fazer agora:
 - Pra criar conteúdo no seu tom: `/conteudo`
 
 Uma dica que muda tudo: jogue 3 ou 4 transcrições de vídeos seus na pasta `conteudo/`. É assim que eu aprendo a escrever do SEU jeito.
+
+Quando quiser turbinar (design de página em nível de agência, Word e Excel de verdade, documentação atualizada), o Hoberdan separou as skills oficiais que valem a pena, com o comando pronto: https://aula-setup-primia.vercel.app/skills
 ---

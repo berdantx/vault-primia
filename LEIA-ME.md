@@ -54,6 +54,12 @@ Cada pasta tem um arquivo `_sobre.md` explicando as regras dela. Pode renomear a
 - `/reuniao` transforma transcrição de call em decisões e próximos passos, e ainda atualiza a ficha do aluno.
 - `/audiencia` lê comentários, DMs ou respostas de pesquisa e mostra o que seu público está pedindo.
 
+## Quer turbinar? Skills extras
+
+O Claude aceita skills oficiais da Anthropic que ampliam o que ele faz: design de página em nível de agência, documentação sempre atualizada, Word e Excel de verdade. Separei as que valem a pena, com o comando pronto pra copiar:
+
+**https://aula-setup-primia.vercel.app/skills**
+
 ## Regra de ouro
 
 O sistema só funciona com uso diário. Rode `/diario` toda manhã por 7 dias seguidos e você não vai mais conseguir trabalhar sem.

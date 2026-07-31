@@ -68,6 +68,12 @@ Cada pasta tem um `_sobre.md` com a regra dela, que o Claude lê e respeita.
 
 O `CLAUDE.md` é o contrato: quem você é, o que faz, seu público, seu tom de voz e as regras da casa. O Claude lê esse arquivo em toda conversa, e é por isso que ele "te conhece" desde a primeira mensagem. O `/setup` preenche ele para você.
 
+## Skills extras recomendadas
+
+Skills oficiais da Anthropic que deixam o Claude mais forte (design de página, documentos, documentação atualizada), com o comando de instalação pronto:
+
+**[aula-setup-primia.vercel.app/skills](https://aula-setup-primia.vercel.app/skills)**
+
 ## Manual completo
 
 Instalação detalhada, o que dá para fazer com cada pasta, exemplos de pedidos prontos e as regras de ouro:
