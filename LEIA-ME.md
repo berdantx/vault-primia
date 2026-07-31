@@ -2,6 +2,14 @@
 
 Este é o seu vault: uma pasta de arquivos de texto que vira a memória central do seu negócio. O Obsidian mostra essas notas de forma bonita, e o Claude trabalha dentro delas com você.
 
+## ⚠️ Antes de tudo: abra a PASTA CERTA
+
+Os comandos (`/setup`, `/diario`) só funcionam se o VS Code estiver aberto **exatamente nesta pasta**, a que contém este arquivo LEIA-ME.md.
+
+Como conferir: no explorador do VS Code (barra lateral esquerda), você tem que ver `CLAUDE.md`, `LEIA-ME.md` e as pastas `inbox`, `diario`, `conteudo`. Se você vê o nome de uma pasta com o vault dentro dela, está um nível acima: feche e abra de novo em File → Open Folder, entrando na pasta certa.
+
+> Se digitar `/setup` e aparecer "comando não existente", é isso: pasta errada. Não é erro seu nem do sistema.
+
 ## Primeiros passos (faça nessa ordem)
 
 1. **Abra esta pasta no VS Code** (File → Open Folder) e abra o Claude pela barra lateral.
