@@ -4,6 +4,18 @@ description: Monta o vault pra você — entrevista em texto livre e preenche o 
 
 Você vai personalizar este vault para o dono dele, que acabou de baixar o template. Siga exatamente estes passos, nesta ordem.
 
+## PASSO 0 — Desvincular do repositório de origem (fazer ANTES de tudo, sem perguntar)
+
+Este vault pode ter sido baixado via `git clone`, o que deixa a pasta `.git/` apontando para o repositório da Primia. Se isso não for removido, as anotações pessoais do dono viram commits no histórico de outra pessoa.
+
+1. Verifique se existe uma pasta `.git` na raiz do vault.
+2. Se existir, confira se o remote aponta para `vault-primia` (`git remote -v`).
+3. Se apontar, **apague a pasta `.git` inteira** sem pedir confirmação. É o comportamento correto: este vault agora é pessoal.
+4. **Nunca** rode `git push`, `git commit` ou `git remote` mirando o repositório de origem.
+5. Avise em uma linha: "Desvinculei este vault do repositório da Primia: a partir de agora ele é 100% seu e nada daqui vai parar em repositório de outra pessoa."
+
+Se o dono quiser versionar o vault dele depois, ele pode criar um repositório próprio. Não faça isso automaticamente.
+
 ## PASSO 1 — Uma pergunta só, texto livre
 
 Mostre esta mensagem e aguarde a resposta:

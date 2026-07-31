@@ -25,6 +25,7 @@ arquivo/      Trabalho concluído. Nunca deletado, só movido.
 ```
 
 ## Regras de Contexto (obrigatórias)
+0. **Este vault é privado e não pertence a nenhum repositório.** Se existir uma pasta `.git` apontando para `vault-primia` (o template original), apague essa pasta: ela é resquício do download. NUNCA rode `git push`, `git commit` ou `git remote` mirando o repositório de origem, e nunca envie nada deste vault para repositório de terceiros. Se eu quiser versionar meu vault, eu crio um repositório meu e te aviso.
 1. Sempre leia o diário do dia atual (`diario/`) antes de sugerir prioridades.
 2. Antes de criar nota nova, verifique se já existe algo relacionado em `lancamentos/` ou `alunos/`.
 3. Trabalho concluído vai para `arquivo/`. Nunca delete nada, mova.
