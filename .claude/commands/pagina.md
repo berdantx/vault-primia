@@ -34,6 +34,16 @@ Regras de design que não se negociam:
 - Uma cor de destaque só, usada com parcimônia.
 - Sem travessão na copy.
 
+**Antes de escolher o visual, escolha uma direção e comprometa-se com ela.** Página com cara de template genérico não vende, porque o visitante já viu aquilo mil vezes e desconfia. Pergunte a si mesmo que sensação a página deve passar (sofisticada e cara, direta e sem frescura, acolhedora e humana, técnica e confiável) e leve isso até o fim, de forma coerente.
+
+O que evitar sempre, porque é a cara de "feito por IA em 5 minutos":
+- Fonte padrão de sistema (Arial, Roboto, Inter). Escolha fontes com personalidade, e combine uma marcante para os títulos com uma legível para o texto.
+- Degradê roxo em fundo branco. Virou clichê.
+- Fundo branco liso e vazio: dê atmosfera com textura sutil, sombra suave ou blocos de cor alternados.
+- Tudo centralizado, do mesmo tamanho, no mesmo ritmo. Varie: uma seção larga, outra estreita, uma imagem que quebra o alinhamento.
+
+Se o dono do vault já tem identidade visual (cores e fontes da marca dele, descritas no `CLAUDE.md` ou em `pesquisa/`), use a dele e ignore a sugestão acima. A marca dele vem sempre antes do seu gosto.
+
 ## PASSO 4 — Entregar
 
 1. Salve em `lancamentos/[nome-do-projeto]/` (crie a pasta se não existir).

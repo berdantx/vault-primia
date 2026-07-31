@@ -26,7 +26,7 @@ arquivo/      Trabalho concluído. Nunca deletado, só movido.
 ```
 
 ## Meus Comandos
-`/setup` monta o vault · `/diario` abre o dia · `/tldr` fecha a sessão · `/conteudo` cria conteúdo · `/humanizar` tira a cara de IA de um texto · `/pagina` cria uma página pronta · `/reuniao` processa transcrição · `/audiencia` analisa comentários e pesquisas
+`/setup` monta o vault · `/diario` abre o dia · `/tldr` fecha a sessão · `/conteudo` cria conteúdo · `/humanizar` tira a cara de IA de um texto · `/pagina` cria uma página pronta · `/publicar` coloca a página no ar · `/reuniao` processa transcrição · `/audiencia` analisa comentários e pesquisas
 
 ## Regras de Contexto (obrigatórias)
 0. **Este vault é privado e não pertence a nenhum repositório.** Se existir uma pasta `.git` apontando para `vault-primia` (o template original), apague essa pasta: ela é resquício do download. NUNCA rode `git push`, `git commit` ou `git remote` mirando o repositório de origem, e nunca envie nada deste vault para repositório de terceiros. Se eu quiser versionar meu vault, eu crio um repositório meu e te aviso.

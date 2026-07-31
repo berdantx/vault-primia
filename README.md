@@ -60,6 +60,7 @@ Cada pasta tem um `_sobre.md` com a regra dela, que o Claude lê e respeita.
 | `/conteudo` | Cria ideias e roteiros no seu tom de voz |
 | `/humanizar` | Tira a cara de IA de qualquer texto |
 | `/pagina` | Cria uma página pronta: captura, obrigado, vendas |
+| `/publicar` | Coloca a página no ar com um link real, de graça |
 | `/reuniao` | Transcrição de call vira decisões e próximos passos |
 | `/audiencia` | Comentários e pesquisas viram direção de conteúdo e oferta |
 

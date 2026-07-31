@@ -48,6 +48,7 @@ Cada pasta tem um arquivo `_sobre.md` explicando as regras dela. Pode renomear a
 - `/conteudo` gera ideias e roteiros no seu tom de voz.
 - `/humanizar` tira a cara de IA de qualquer texto (cole o texto e mande).
 - `/pagina` cria uma página pronta: captura, obrigado, vendas.
+- `/publicar` coloca a página no ar com um link real, de graça.
 
 **Para inteligência do negócio:**
 - `/reuniao` transforma transcrição de call em decisões e próximos passos, e ainda atualiza a ficha do aluno.
