@@ -38,4 +38,4 @@ Não há monitoramento automático da inbox, instalação universal, transcriç�
 
 Nenhum plugin comunitário do Obsidian é obrigatório ou ativado pelo kit. A pasta .obsidian não é distribuída: preferências e plugins existentes não são sobrescritos.
 
-Para desenvolvimento e testes: [MANUTENCAO](docs/MANUTENCAO.md). Não envie seu perfil ou suas notas ao repositório do template.
+Para desenvolvimento: [MANUTENCAO](docs/MANUTENCAO.md). Veja também os [testes executados e seus limites](docs/VALIDACAO.md). Não envie seu perfil ou suas notas ao repositório do template.
