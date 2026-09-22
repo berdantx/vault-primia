@@ -1,0 +1,15 @@
+{
+  "nome": "Curso Aula Clara",
+  "oferta": "Curso online sobre organização de aulas digitais, ainda em desenvolvimento",
+  "publico": "Professores preparando aulas digitais",
+  "problema": "Dificuldade de organizar conteúdo numa sequência clara de aulas: hipótese a validar",
+  "objetivo": "Esboçar a oferta e validar o interesse antes de produzir",
+  "proximo_passo": "Conversar com professores para validar a dificuldade",
+  "definido": [],
+  "hipoteses": [
+    "O público tem essa dificuldade e procura uma solução"
+  ],
+  "pendencias": [
+    "Formato, conteúdo, preço e prazo"
+  ]
+}

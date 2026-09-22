@@ -1,15 +1,12 @@
 ---
 name: tldr
-description: Fecha a sessão — salva um resumo do que foi feito na pasta certa
-type: slash-command
+description: Fecha a sessão com decisões, pendências e próximo passo no diário e no projeto pertinente.
 ---
 
-# /tldr
+# Registrar a sessão
 
-Feche esta sessão de trabalho:
+Leia INSTRUCOES.md, perfil.json e notas do trabalho desta conversa. Resuma só o que aconteceu: decisões aprovadas, arquivos entregues, hipóteses, pendências e próximo passo.
 
-1. Resuma o que foi feito nesta conversa: decisões, criações, pendências que ficaram.
-2. Registre esse resumo no diário de hoje (`diario/AAAA-MM-DD.md`), na seção **Registros**.
-3. Se algo criado aqui pertence a um lançamento, aluno ou conteúdo específico, salve/mova para a pasta certa e diga onde salvou e por quê.
-4. Se surgiu tarefa nova para outro dia, registre na seção **Pendências** do diário.
-5. Termine com uma linha: o que fazer primeiro na próxima sessão.
+Acrescente registro com hora local no diário configurado de hoje; crie se faltar. Sem novidades ao repetir, não duplique o registro. Atualize somente o projeto pertinente e preserve o restante. Não mova arquivos sem autorização nem diga que capturou outra conversa que não recebeu.
+
+Entregue caminhos e ponto de retomada, úteis a qualquer assistente que leia os arquivos depois.

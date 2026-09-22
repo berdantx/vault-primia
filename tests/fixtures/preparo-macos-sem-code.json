@@ -1,0 +1,8 @@
+{
+  "sistema": "Darwin",
+  "apps": {
+    "VS Code": true,
+    "Obsidian": true
+  },
+  "extensoes": null
+}

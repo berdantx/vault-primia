@@ -1,0 +1,21 @@
+{
+  "nome": "Rafael",
+  "negocio": "Curso Aula Clara (fictício)",
+  "publico": "Professores preparando aulas digitais",
+  "oferta": "Curso online sobre organização de aulas digitais, ainda em desenvolvimento",
+  "regiao": "Online; região a definir",
+  "objetivos": "Esboçar a oferta e validar o interesse antes de produzir",
+  "tom": "Didático e próximo",
+  "escopo": "Trabalho",
+  "pastas": {
+    "projetos": "Meus Projetos",
+    "clientes": "alunos",
+    "inbox": "inbox",
+    "diario": "diario",
+    "reunioes": "reunioes",
+    "pesquisa": "pesquisa",
+    "conteudo": "conteudo",
+    "arquivo": "arquivo",
+    "pessoal": "pessoal"
+  }
+}

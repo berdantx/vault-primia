@@ -1,0 +1,21 @@
+{
+  "nome": "a definir",
+  "negocio": "a definir",
+  "publico": "a definir",
+  "oferta": "a definir",
+  "regiao": "a definir",
+  "objetivos": "a definir",
+  "tom": "a definir",
+  "escopo": "a definir",
+  "pastas": {
+    "projetos": "projetos",
+    "clientes": "clientes",
+    "inbox": "inbox",
+    "diario": "diario",
+    "reunioes": "reunioes",
+    "pesquisa": "pesquisa",
+    "conteudo": "conteudo",
+    "arquivo": "arquivo",
+    "pessoal": "pessoal"
+  }
+}

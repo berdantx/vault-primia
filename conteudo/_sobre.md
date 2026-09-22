@@ -1,5 +1,3 @@
-# conteudo/ — Fábrica de conteúdo
+# Conteúdo
 
-Ideias, roteiros de reels, carrosséis, calendário editorial, análises de posts. Use `/conteudo` para criar com o contexto do vault.
-
-**Dica:** salve aqui também transcrições de vídeos seus. É assim que o Claude aprende o seu tom de voz de verdade.
+Ideias e roteiros ligados ao projeto e ao tom aprovado. Transcrições próprias autorizadas podem servir de referência de voz, sem treinar ou sincronizar memória automaticamente. /conteudo cria rascunhos; publicar/enviar é pedido separado.

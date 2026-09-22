@@ -1,15 +1,10 @@
 ---
 name: conteudo
-description: Gera ideias e roteiros de conteúdo com o contexto do vault
-type: slash-command
+description: Cria ideias e roteiros no tom do perfil com oferta e materiais autorizados do projeto.
 ---
 
-# /conteudo
+# Conteúdo
 
-Ajude o dono deste vault a criar conteúdo. Se ele passou um tema junto do comando, trabalhe nele.
+Leia INSTRUCOES.md, perfil.json e projeto pertinente. Use exemplos de voz do dono em conteudo/ quando fornecidos. Sem tema, leia o diário antes de sugerir prioridades e proponha poucas ideias fundamentadas no projeto.
 
-1. Leia o `CLAUDE.md` (tom de voz e público) e o que existir em `conteudo/`.
-2. Se não veio tema, olhe `conteudo/`, `lancamentos/` e o diário recente e sugira 5 ideias conectadas ao momento atual dele.
-3. Para a ideia escolhida, entregue um roteiro pronto para gravar: gancho forte nos primeiros 3 segundos, desenvolvimento e chamada para ação.
-4. Escreva no tom de voz DELE, não em tom de IA. Frases curtas, sem palavras difíceis.
-5. Salve o resultado em `conteudo/` com nome descritivo e diga onde salvou.
+Crie o formato pedido, com objetivo e chamada coerentes com a oferta. Preserve fatos/limites; não simule experiência pessoal, depoimento ou resultado. Salve na pasta de conteúdo configurada, vincule o projeto e marque rascunho/revisado. Não publique nem envie.

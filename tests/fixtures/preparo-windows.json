@@ -1,0 +1,11 @@
+{
+  "sistema": "Windows",
+  "apps": {
+    "VS Code": true,
+    "Obsidian": true
+  },
+  "extensoes": [
+    "Anthropic.claude-code",
+    "ritwickdey.LiveServer"
+  ]
+}

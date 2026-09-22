@@ -1,5 +1,3 @@
-# arquivo/ — Memória permanente
+# Arquivo
 
-Tudo que acabou vem para cá: lançamentos encerrados, alunos formados, projetos entregues.
-
-**Regra de ouro:** aqui nada se deleta. Arquivo é memória, e memória é o que faz o Claude ficar mais inteligente sobre o SEU negócio a cada mês de uso.
+Trabalho concluído e versões anteriores que precisem ser preservadas. Mova para cá somente após explicar origem/destino e obter autorização. Nunca exclua notas para limpar a base. Contexto só é útil quando registrado e consultado; não significa aprendizado automático do modelo.

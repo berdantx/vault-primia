@@ -1,0 +1,15 @@
+{
+  "nome": "Serviço do Estúdio Linha",
+  "oferta": "Organização de ambientes de pequenos escritórios",
+  "publico": "Donos de pequenos escritórios em Campinas",
+  "problema": "Ambientes desorganizados que dificultam a rotina de trabalho",
+  "objetivo": "Apresentar o serviço e orientar pedidos de conversa",
+  "proximo_passo": "Confirmar escopo e informações necessárias à página",
+  "definido": [
+    "Serviço já prestado neste exemplo fictício"
+  ],
+  "hipoteses": [],
+  "pendencias": [
+    "Preço, prazo e escopo de cada contratação"
+  ]
+}

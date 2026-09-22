@@ -1,36 +1,14 @@
 ---
 name: reuniao
-description: Transforma transcrição de reunião ou call em resumo, decisões e próximos passos
-type: slash-command
+description: Transforma transcrição fornecida em decisões, responsáveis, pendências e registro ligado ao projeto.
 ---
 
-# /reuniao
+# Processar reunião
 
-Processe a transcrição que o dono deste vault colou (ou o arquivo que ele apontou, normalmente vindo do `inbox/`).
+Leia INSTRUCOES.md, perfil.json e a transcrição fornecida/indicada. Se só há áudio, confira ferramenta de transcrição autorizada; se não há, peça transcrição e não invente a reunião. Não envie arquivos a serviço externo sem autorização para esse uso.
 
-## O que extrair
+Registre participantes identificáveis, data informada (desconhecida se faltar), assunto, decisões versus sugestões, ações, responsável e prazo ou “sem prazo definido”, dúvidas e referências ao original/trechos. Falas privadas não viram depoimento público automaticamente.
 
-1. **Quem participou** e o papel de cada um
-2. **Sobre o que foi** a conversa, em duas linhas
-3. **O que foi discutido**, em tópicos curtos
-4. **O que ficou decidido** (só o que foi realmente fechado, não o que foi cogitado)
-5. **Próximos passos:** quem faz o quê e até quando. Se o prazo não foi dito, escreva "sem prazo definido" em vez de inventar.
-6. **Frases marcantes:** se alguém disse algo que serve como depoimento ou vira conteúdo, separe.
+Salve `<pastas.reunioes>/AAAA-MM-DD-assunto.md`; use data de registro no nome quando a data da reunião for desconhecida e explique no corpo. Procure registro prévio para evitar duplicação. Mostre notas de projeto/cliente/diário que podem mudar e aplique só atualizações autorizadas, sem criar contatos externos ou enviar mensagens.
 
-## Onde salvar
-
-Salve em `reunioes/` (crie a pasta se não existir), com o nome no padrão:
-
-```
-AAAA-MM-DD-nome-da-pessoa-assunto.md
-```
-
-Use o nome da outra pessoa, não o do dono do vault. Máximo 4 palavras depois da data, tudo minúsculo, sem acento, separado por hífen.
-
-## Depois de salvar, sem perguntar
-
-- Se a conversa foi com um aluno ou cliente, atualize a nota dele em `alunos/` com o que mudou: o que foi combinado, o momento dele, o próximo passo. Se não existir nota, crie.
-- Se apareceu tarefa para o dono do vault, registre em `diario/` de hoje, na seção Pendências.
-- Se apareceu ideia de conteúdo, jogue em `conteudo/`.
-
-No final, avise em três linhas o que foi criado ou atualizado. Não repita o resumo inteiro.
+Preserve a transcrição. Informe arquivos e questões a confirmar, sem repetir todo o resumo.

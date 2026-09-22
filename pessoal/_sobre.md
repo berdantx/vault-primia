@@ -1,5 +1,3 @@
-# pessoal/ — Vida fora do trabalho
+# Vida pessoal
 
-Metas do ano, saúde, finanças, família, viagens. O segundo cérebro funciona melhor quando a vida inteira está nele, não só o negócio.
-
-**Regra:** o Claude só traz assuntos daqui quando você pedir. Trabalho e pessoal convivem, mas não se misturam sem convite.
+Use somente se esse escopo foi escolhido no perfil. O assistente consulta estes assuntos quando pertinente ao pedido; não os mistura em propostas ou material público. Esta pasta não deve ser enviada ao repositório do template.
