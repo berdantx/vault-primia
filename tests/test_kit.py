@@ -45,7 +45,7 @@ class ProfileAndProjectTests(unittest.TestCase):
                 preview = vault.create_project(root, project)
                 path = Path(preview["arquivo"])
                 self.assertFalse(path.exists())
-                self.assertTrue(path.is_relative_to(root / profile["pastas"]["projetos"]))
+                self.assertTrue(path.is_relative_to((root / profile["pastas"]["projetos"]).resolve()))
                 created = vault.create_project(root, project, True)
                 self.assertEqual(created["status"], "criado")
                 content = path.read_text(encoding="utf-8")
