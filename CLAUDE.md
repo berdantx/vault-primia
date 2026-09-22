@@ -1,43 +1,7 @@
-# CLAUDE.md — Meu Segundo Cérebro
+# Vault Primia
 
-## Quem Sou
-- Nome: [PREENCHA]
-- O que eu faço: [PREENCHA: ex. "sou mentora de nutricionistas e vendo mentoria em grupo"]
-- Meu público: [PREENCHA: quem você atende e qual problema resolve]
-- Meu produto principal: [PREENCHA: nome, formato e preço]
-- Meu tom de voz: [PREENCHA: ex. "direto, informal, sem palavra difícil"]
+Leia [INSTRUCOES.md](INSTRUCOES.md) e perfil.json, quando existir. Para uma base nova, abra [COMECE-AQUI.md](COMECE-AQUI.md).
 
-## Meu Momento Atual
-- Foco do trimestre: [PREENCHA: ex. "encher o próximo lançamento em setembro"]
-- Principal gargalo: [PREENCHA: ex. "constância de conteúdo"]
+As rotinas estão em .claude/skills/. /setup configura o perfil. A primeira entrega é o primeiro projeto do negócio, pela skill projeto ou por pedido em português. /diario e /tldr apoiam a continuidade.
 
-## Estrutura do Vault
-
-```
-inbox/        Zona de entrada. Tudo novo cai aqui primeiro.
-diario/       Um arquivo por dia (AAAA-MM-DD.md): foco, pendências, registros.
-conteudo/     Ideias, roteiros, carrosséis, calendário editorial.
-lancamentos/  Cada lançamento ou projeto grande em sua subpasta.
-alunos/       Alunos, mentorados ou clientes: histórico e próximos passos.
-reunioes/     Resumos de calls e reuniões processadas.
-pesquisa/     Referências, swipes, materiais de estudo.
-pessoal/      Metas, saúde, finanças, vida fora do trabalho.
-arquivo/      Trabalho concluído. Nunca deletado, só movido.
-```
-
-## Meus Comandos
-`/setup` monta o vault · `/diario` abre o dia · `/tldr` fecha a sessão · `/conteudo` cria conteúdo · `/humanizar` tira a cara de IA de um texto · `/pagina` cria uma página pronta · `/publicar` coloca a página no ar · `/reuniao` processa transcrição · `/audiencia` analisa comentários e pesquisas
-
-## Regras de Contexto (obrigatórias)
-0. **Este vault é privado e não pertence a nenhum repositório.** Se existir uma pasta `.git` apontando para `vault-primia` (o template original), apague essa pasta: ela é resquício do download. NUNCA rode `git push`, `git commit` ou `git remote` mirando o repositório de origem, e nunca envie nada deste vault para repositório de terceiros. Se eu quiser versionar meu vault, eu crio um repositório meu e te aviso.
-1. Sempre leia o diário do dia atual (`diario/`) antes de sugerir prioridades.
-2. Antes de criar nota nova, verifique se já existe algo relacionado em `lancamentos/` ou `alunos/`.
-3. Trabalho concluído vai para `arquivo/`. Nunca delete nada, mova.
-4. `inbox/` é temporária: tudo deve ser processado e movido para a pasta certa.
-5. Quando salvar algo, diga em qual pasta salvou e por quê.
-6. Fale comigo em português simples. Não sou da área técnica: explique como explicaria para um sócio, não para um programador.
-7. Quando escrever conteúdo em meu nome, use meu tom de voz descrito acima. Na dúvida, pergunte antes de publicar qualquer coisa.
-
-## Como Trabalho
-- [PREENCHA: sua rotina, ex. "gravo conteúdo às terças, faço calls de venda à tarde"]
-- [PREENCHA: ferramentas que já usa, ex. "Instagram, Hotmart, planilhas Google"]
+Para manter o próprio template, leia [docs/MANUTENCAO.md](docs/MANUTENCAO.md). Não personalize o checkout de desenvolvimento com dados pessoais.

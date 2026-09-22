@@ -1,85 +1,41 @@
-# Vault Primia — Seu Segundo Cérebro
+# Vault Primia — seu segundo cérebro
 
-Um comando. Um segundo cérebro montado no seu computador.
+Uma pasta de notas para trabalhar com contexto: perfil do negócio, projetos, decisões e próximos passos. Obsidian organiza a leitura; Claude Code ajuda a trabalhar nos arquivos. Codex é complementar.
 
-Este repositório é um **vault Obsidian pronto**: estrutura de pastas, regras de trabalho e comandos de IA já configurados. O Claude lê essas regras e passa a trabalhar como um braço direito que conhece o seu negócio.
+**[Comece aqui](COMECE-AQUI.md)**. A primeira entrega é uma nota revisada do primeiro projeto do seu negócio: oferta, público, problema e objetivo. Diário fica para a continuidade. O caminho serve a prestadores de serviço, negócios locais e infoprodutores.
 
-## Como instalar
+## Antes do evento
 
-**1.** Abra o VS Code em uma pasta vazia (File → Open Folder) e abra o Claude na barra lateral.
+Prepare VS Code, Obsidian, Claude Code e Live Server pelo [guia de preparação](https://segundo-cerebro-v2.vercel.app/). Você usa sua própria conta elegível. Codex é opcional. No Obsidian, basta abrir o aplicativo; o kit será obtido no encontro. ZIP de kit não instala aplicativos ou extensões.
 
-**2.** Cole esta linha no Claude e mande:
+## No encontro
 
-```
-Baixe o conteúdo do vault https://github.com/berdantx/vault-primia direto NESTA pasta que já está aberta, sem criar subpasta, e me guie na instalação.
-```
+1. Baixe o ZIP desta versão pelo GitHub (Code → Download ZIP), extraia numa pasta nova e abra a pasta que contém LEIA-ME.md no VS Code.
+2. Abra essa mesma pasta como cofre no Obsidian. Não misture com acervo pessoal existente.
+3. No painel do Claude Code, use `/setup`, revise o perfil e confirme antes de salvar.
+4. Peça: **“Crie o primeiro projeto do meu negócio usando meu perfil. Registre o que ofereço, para quem, qual problema resolve e qual objetivo. Mostre para eu revisar antes de salvar.”**
+5. Reabra a nota salva. Ela será a base para oferta, pesquisa, visual e página HTML local, conforme o ritmo da turma.
 
-**3.** Quando terminar, rode:
+Se está revisando uma pull request, baixe o ZIP da branch da PR. A branch main só recebe as mudanças após merge. Não confunda uma branch acessível com a versão principal atualizada.
 
-```
-/setup
-```
+Alternativa assistida, sempre em pasta nova e vazia: peça ao assistente para baixar o ZIP de `berdantx/vault-primia`, explicar onde ficará e conferir que não há perfil/notas antes de extrair. Não sobrescreva um vault. O método recomendado não cria conexão Git; se já fez clone, nada apaga .git automaticamente.
 
-O Claude vai te entrevistar em texto livre, montar o vault personalizado para o seu negócio e deixar tudo pronto para usar.
+## O que existe nesta revisão
 
-**4.** Abra a mesma pasta no Obsidian (Open folder as vault) e pronto: suas notas com cara de app, e o Claude trabalhando dentro delas.
+- Perfil compartilhado em perfil.json e mapa de pastas, preservados ao repetir setup.
+- Skills de projeto, oferta (expresso/completo/por etapa), pesquisa, concorrentes e direção visual.
+- Inbox por demanda, abertura/fechamento do dia, reuniões, conteúdo, audiência, relatórios e propostas.
+- Página local a partir da oferta ou reconstruída a partir de referência, sem herdar rastreadores.
+- Bases oficiais frontend-design e theme-factory com licenças. Canvas-design é complemento opcional, não incluído no ZIP.
+- Entradas para Claude Code e Codex apontando ao mesmo corpo de instruções, sem compartilhar memória interna automaticamente.
+- Verificador opcional de preparação e auxiliares de perfil/projeto/HTML, somente locais. O percurso manual funciona sem Python.
 
-> **Por que colar a linha em vez de usar `git clone`?** Porque o `git clone` cria uma subpasta nova com o nome do repositório, e aí o VS Code fica aberto um nível acima do vault: nenhum comando funciona e aparece "comando não existente". A linha acima baixa tudo direto na pasta que você já abriu.
->
-> Se você preferir mesmo usar o terminal, o comando que instala na pasta atual (sem criar subpasta) é:
-> ```
-> git clone https://github.com/berdantx/vault-primia .
-> ```
-> O ponto no final é o que faz a diferença: significa "aqui mesmo". A pasta precisa estar vazia.
+Veja [rotinas](docs/ROTINAS.md), [instalação e recuperação](docs/INSTALACAO.md), [página local](docs/PAGINA-LOCAL.md), [licenças](docs/DESIGN-E-LICENCAS.md), [exemplos fictícios](exemplos/README.md) e [modelo sem IA](modelos/acompanhar-sem-ia.md).
 
-> Pré-requisitos: VS Code com a extensão Claude Code (plano Pro ou Max) e Obsidian instalados. Passo a passo completo em **[aula-setup-primia.vercel.app](https://aula-setup-primia.vercel.app)**.
+## Limites claros
 
-## O que vem dentro
+Não há monitoramento automático da inbox, instalação universal, transcrição de áudio garantida ou publicação incluída. Os 90 minutos não garantem pesquisa extensa, identidade completa e página final para todos. Scripts verificam invariantes; um teste real com iniciante continua necessário. As notas são locais, mas assistentes hospedados podem receber o contexto usado nos pedidos.
 
-| Pasta | Para que serve |
-|---|---|
-| `inbox/` | Zona de entrada: tudo novo cai aqui e é processado depois |
-| `diario/` | Um arquivo por dia: foco, pendências, registros |
-| `conteudo/` | Ideias, roteiros, transcrições (é aqui que o Claude aprende seu tom de voz) |
-| `lancamentos/` | Cada lançamento ou projeto grande em sua subpasta |
-| `alunos/` | Alunos, mentorados ou clientes: histórico e próximos passos |
-| `reunioes/` | Resumos de calls processadas pelo `/reuniao` |
-| `pesquisa/` | Referências, swipes e materiais de estudo |
-| `pessoal/` | Metas, saúde, finanças, vida fora do trabalho |
-| `arquivo/` | Trabalho concluído. Nunca deletado, só movido |
+Nenhum plugin comunitário do Obsidian é obrigatório ou ativado pelo kit. A pasta .obsidian não é distribuída: preferências e plugins existentes não são sobrescritos.
 
-Cada pasta tem um `_sobre.md` com a regra dela, que o Claude lê e respeita.
-
-## Comandos
-
-| Comando | O que faz |
-|---|---|
-| `/setup` | Monta o vault: entrevista você e preenche o CLAUDE.md (rode uma vez) |
-| `/diario` | Abre o dia: revisa pendências e define o foco |
-| `/tldr` | Fecha a sessão: salva o resumo na pasta certa |
-| `/conteudo` | Cria ideias e roteiros no seu tom de voz |
-| `/humanizar` | Tira a cara de IA de qualquer texto |
-| `/pagina` | Cria uma página pronta: captura, obrigado, vendas |
-| `/publicar` | Coloca a página no ar com um link real, de graça |
-| `/reuniao` | Transcrição de call vira decisões e próximos passos |
-| `/audiencia` | Comentários e pesquisas viram direção de conteúdo e oferta |
-
-## O arquivo mais importante
-
-O `CLAUDE.md` é o contrato: quem você é, o que faz, seu público, seu tom de voz e as regras da casa. O Claude lê esse arquivo em toda conversa, e é por isso que ele "te conhece" desde a primeira mensagem. O `/setup` preenche ele para você.
-
-## Skills extras recomendadas
-
-Skills oficiais da Anthropic que deixam o Claude mais forte (design de página, documentos, documentação atualizada), com o comando de instalação pronto:
-
-**[aula-setup-primia.vercel.app/skills](https://aula-setup-primia.vercel.app/skills)**
-
-## Manual completo
-
-Instalação detalhada, o que dá para fazer com cada pasta, exemplos de pedidos prontos e as regras de ouro:
-
-**[aula-setup-primia.vercel.app/manual](https://aula-setup-primia.vercel.app/manual)**
-
----
-
-Feito pela [Primia](https://primia.ai) · IA que aguenta lançamento
+Para desenvolvimento: [MANUTENCAO](docs/MANUTENCAO.md). Veja também os [testes executados e seus limites](docs/VALIDACAO.md). Não envie seu perfil ou suas notas ao repositório do template.

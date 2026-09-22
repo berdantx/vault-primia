@@ -1,18 +1,12 @@
 ---
 name: diario
-description: Abre o dia — lê pendências, revisa ontem e define o foco
-type: slash-command
+description: Abre ou retoma o dia com projetos, pendências e inbox; funciona também em uma base vazia.
 ---
 
-# /diario
+# Abrir o dia
 
-Abra o dia de trabalho do dono deste vault:
+Leia INSTRUCOES.md e perfil.json. Abra a nota de hoje na pasta configurada, se existir. Leia o último registro disponível sem presumir dia útil/histórico completo. Confira projetos, clientes e nomes dos itens da inbox pertinentes ao pedido.
 
-1. Verifique se já existe o arquivo de hoje em `diario/` (formato `AAAA-MM-DD.md`). Se não existir, crie com as seções: **Foco do dia**, **Pendências**, **Registros**.
-2. Leia o diário do último dia útil e traga o que ficou em aberto.
-3. Olhe a pasta `inbox/` e liste o que ainda não foi processado.
-4. Olhe `lancamentos/` e `alunos/` e liste até 5 pontos que precisam de ação, do mais urgente ao menos.
-5. Com base nisso, sugira UM foco principal para hoje e pergunte se ele concorda ou quer trocar.
-6. Registre a decisão no diário de hoje.
+Sem registros, diga isso e pergunte o objetivo de hoje; não invente compromissos. Use Foco, Pendências e Registros. Não substitua o conteúdo ao reexecutar. Sugira até cinco pendências fundamentadas em arquivos e um foco para revisão; registre a escolha e próximos passos reais.
 
-Seja direto: o dia começa em 2 minutos, não com um relatório.
+Diário é continuidade, não primeira tarefa obrigatória. Se quer criar primeiro projeto, use projeto. Não processe/mova inbox automaticamente. Informe o caminho da nota.

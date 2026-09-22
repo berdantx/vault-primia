@@ -1,0 +1,21 @@
+{
+  "nome": "Clara",
+  "negocio": "Estúdio Linha (fictício)",
+  "publico": "Donos de pequenos escritórios em Campinas",
+  "oferta": "Organização de ambientes de pequenos escritórios",
+  "regiao": "Campinas",
+  "objetivos": "Apresentar o serviço e orientar pedidos de conversa",
+  "tom": "Direto e acolhedor",
+  "escopo": "Trabalho",
+  "pastas": {
+    "projetos": "projetos",
+    "clientes": "clientes",
+    "inbox": "inbox",
+    "diario": "diario",
+    "reunioes": "reunioes",
+    "pesquisa": "pesquisa",
+    "conteudo": "conteudo",
+    "arquivo": "arquivo",
+    "pessoal": "pessoal"
+  }
+}

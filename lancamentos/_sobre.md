@@ -1,5 +1,3 @@
-# lancamentos/ — Projetos grandes
+# Lançamentos
 
-Cada lançamento, evento ou projeto grande ganha uma subpasta com suas notas: estratégia, copy, cronograma, números.
-
-**Regra:** lançamento encerrado vai inteiro para `arquivo/`, com uma nota final de resultados (o que funcionou, o que não repetir). É seu histórico de guerra.
+Pasta legada/opcional. Se perfil.json mapear projetos para lancamentos, use uma subpasta por projeto. Encerramento pode gerar nota de resultados observados. Movimentação para arquivo/ exige destino explicado e autorização; não arquive automaticamente.

@@ -1,7 +1,3 @@
-# reunioes/ — Calls e reuniões processadas
+# Reuniões
 
-Resumos de reuniões, calls de venda, sessões de mentoria e conversas importantes.
-
-**Como usar:** cole a transcrição (do Zoom, Meet, Fathom ou até um áudio transcrito) e rode `/reuniao`. O Claude extrai decisões, próximos passos e frases marcantes, salva aqui e ainda atualiza sozinho a ficha da pessoa em `alunos/`.
-
-**Padrão de nome:** `AAAA-MM-DD-nome-da-pessoa-assunto.md`
+/reuniao trabalha com transcrição fornecida, separa decisões de sugestões e registra responsáveis/prazos informados. Preserve o original. Atualizações em projetos/clientes/diário precisam estar no escopo autorizado; não há envio de mensagens ou criação automática de fichas externas.

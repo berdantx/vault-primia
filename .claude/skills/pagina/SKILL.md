@@ -1,56 +1,20 @@
 ---
 name: pagina
-description: Cria uma página pronta (captura, obrigado, vendas) já com o seu texto e sua cara
-type: slash-command
+description: Cria HTML local para a oferta aprovada ou a partir de referência, sem rastreadores ou publicação.
 ---
 
-# /pagina
+# Página local
 
-Crie uma página web completa para o dono deste vault. Ele não é programador: ele descreve o que quer e recebe a página funcionando.
+Leia INSTRUCOES.md, perfil.json, projeto.md, oferta.md e visual/direcao-visual.md. Pergunte apenas o que falta e o destino real da chamada para ação. Sem direção visual, use direcao-visual e aprove a prévia primeiro.
 
-## PASSO 1 — Entender o essencial (no máximo 3 perguntas)
+**Oferta própria:** escreva texto com os dados aprovados e mostre para revisão. Sem prova autorizada, omita a seção; não simule depoimentos, urgência, preços, resultados ou clientes.
 
-Leia o `CLAUDE.md` (negócio, público, tom de voz) e `lancamentos/` antes de perguntar qualquer coisa. Depois pergunte só o que faltar:
+**Referência:** leia references/referencia.md. Observe estrutura/composição e reconstrua um HTML novo com identidade/conteúdo do participante. Não reutilize scripts, CSS remoto, pixels, cookies, formulários, contatos, imagens ou marcas da captura. A alternativa manual dispensa navegador automatizado.
 
-1. Qual o objetivo da página? (capturar contato, vender, agradecer, apresentar)
-2. O que a pessoa ganha? (a oferta, o evento, o material)
-3. Para onde vai o botão? (WhatsApp, checkout, formulário)
+Salve `<projeto>/site/index.html`, com CSS interno e PNG/JPEG/WebP locais autorizados. A rota padrão usa HTML/CSS sem scripts, SVG ativo, iframes, importações/fontes remotas ou frameworks. Links revisados fazem a navegação. Formulários são “Demonstração: não envia dados”, com controles desabilitados e sem action. Não prometa envio sem integração. JavaScript/integrações são etapa separada com revisão própria.
 
-Se ele já disse tudo isso no pedido, não pergunte nada. Vá direto para o passo 2.
+Confira com scripts/verificar_pagina.py se Python 3.10+ estiver disponível; --permitir-destino só lista URLs exatas confirmadas pelo dono. Não substitui revisão visual/de rede. Sem Python, use docs/PAGINA-LOCAL.md e registre checagem manual. Não execute HTML capturado de terceiros no vault.
 
-## PASSO 2 — Escrever o texto antes do código
+Abra SOMENTE site em outra janela do VS Code e use Live Server. Nunca sirva o vault. Teste celular/desktop, teclado, contraste, destinos e rede sem rastreamento. Sem navegador disponível, peça a conferência ao participante e não afirme ter visto. Registre resultado/limites em pagina-revisao.md no projeto, vinculado em projeto.md.
 
-Escreva a copy primeiro, no tom de voz dele:
-- **Título:** a promessa mais concreta possível. Nada de "transforme sua vida".
-- **Subtítulo:** para quem é e o que vai acontecer.
-- **3 a 5 blocos** de benefício, sempre em resultado, não em característica.
-- **Prova:** depoimento, número, resultado real. Se não houver, deixe o espaço marcado como `[COLOCAR DEPOIMENTO AQUI]` e avise.
-- **Chamada para ação:** verbo no imperativo, primeira pessoa. "Quero minha vaga" funciona melhor que "Enviar".
-
-## PASSO 3 — Montar a página
-
-Um único arquivo `.html`, com tudo dentro (CSS e imagens em base64 ou de link público). Nada de instalar nada.
-
-Regras de design que não se negociam:
-- **O botão principal precisa gritar.** Fundo sólido na cor de destaque, texto contrastante, sombra colorida, letra grande e em negrito. Se ele passa despercebido numa olhada de 2 segundos, está errado.
-- Funciona no celular primeiro. A maioria vai abrir pelo telefone.
-- Fonte grande (16px ou mais no corpo), espaçamento generoso, no máximo 2 famílias de fonte.
-- Uma cor de destaque só, usada com parcimônia.
-- Sem travessão na copy.
-
-**Antes de escolher o visual, escolha uma direção e comprometa-se com ela.** Página com cara de template genérico não vende, porque o visitante já viu aquilo mil vezes e desconfia. Pergunte a si mesmo que sensação a página deve passar (sofisticada e cara, direta e sem frescura, acolhedora e humana, técnica e confiável) e leve isso até o fim, de forma coerente.
-
-O que evitar sempre, porque é a cara de "feito por IA em 5 minutos":
-- Fonte padrão de sistema (Arial, Roboto, Inter). Escolha fontes com personalidade, e combine uma marcante para os títulos com uma legível para o texto.
-- Degradê roxo em fundo branco. Virou clichê.
-- Fundo branco liso e vazio: dê atmosfera com textura sutil, sombra suave ou blocos de cor alternados.
-- Tudo centralizado, do mesmo tamanho, no mesmo ritmo. Varie: uma seção larga, outra estreita, uma imagem que quebra o alinhamento.
-
-Se o dono do vault já tem identidade visual (cores e fontes da marca dele, descritas no `CLAUDE.md` ou em `pesquisa/`), use a dele e ignore a sugestão acima. A marca dele vem sempre antes do seu gosto.
-
-## PASSO 4 — Entregar
-
-1. Salve em `lancamentos/[nome-do-projeto]/` (crie a pasta se não existir).
-2. Abra a página no navegador para ele ver.
-3. Diga onde salvou e liste em uma linha o que ele precisa trocar: link do botão, depoimento, foto.
-4. Ofereça: "quer que eu publique isso na internet com um link real?" e só publique se ele pedir.
+Entregue caminho e como abrir localmente. Não acione /publicar, não proponha deploy automaticamente nem prometa link público.
