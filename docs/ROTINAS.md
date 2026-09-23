@@ -20,6 +20,7 @@ No Claude Code, use os nomes abaixo ou peça em português. No Codex, use seleto
 | /reuniao | Transforma transcrição fornecida em decisões, responsáveis, pendências e registro ligado ao projeto. |
 | /setup | Configura ou revisa o perfil do negócio preservando dados existentes e preparando o primeiro projeto. |
 | /tldr | Fecha a sessão com decisões, pendências e próximo passo no diário e no projeto pertinente. |
+| /clone-and-clean | Bônus opcional: usa uma página existente como referência e devolve uma versão limpa em HTML. Exige Claude in Chrome e Python 3; use só a saída clean/. |
 
 A primeira tarefa é projeto, não diário. frontend-design/theme-factory apoiam direcao-visual e já estão incluídas com recursos/licenças. Canvas-design é opcional, não incluída. publicar permanece como orientação compatível para um pedido explícito fora da oficina; não é chamada por pagina nem instala hospedagem.
 

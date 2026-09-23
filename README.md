@@ -27,6 +27,7 @@ Alternativa assistida, sempre em pasta nova e vazia: peça ao assistente para ba
 - Inbox por demanda, abertura/fechamento do dia, reuniões, conteúdo, audiência, relatórios e propostas.
 - Página local a partir da oferta ou reconstruída a partir de referência, sem herdar rastreadores.
 - Bases oficiais frontend-design e theme-factory com licenças. Canvas-design é complemento opcional, não incluído no ZIP.
+- Bônus: skill clone-and-clean (MIT) para usar uma página existente como referência. Opcional, exige Claude in Chrome e Python 3; ver docs/DESIGN-E-LICENCAS.md.
 - Entradas para Claude Code e Codex apontando ao mesmo corpo de instruções, sem compartilhar memória interna automaticamente.
 - Verificador opcional de preparação e auxiliares de perfil/projeto/HTML, somente locais. O percurso manual funciona sem Python.
 
