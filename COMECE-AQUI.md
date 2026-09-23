@@ -19,7 +19,7 @@ Peça ao Claude Code: “Leia o LEIA-ME.md e me explique o que há nesta pasta, 
 
 ## 3. Conte sobre seu negócio
 
-Digite `/setup`. Informe o que já sabe: negócio, público, oferta/serviço ou produto a desenvolver, região pertinente, objetivos e tom. Pode dizer “a definir”. Revise o rascunho e confirme antes de salvar perfil.json.
+Digite `/ setup`. Informe o que já sabe: negócio, público, oferta/serviço ou produto a desenvolver, região pertinente, objetivos e tom. Pode dizer “a definir”. Revise o rascunho e confirme antes de salvar perfil.json.
 
 Se já existe perfil, ele deve ser lido e preservado. Repetir setup não apaga nem reinicia sua base. Ajustes de perfil e reorganização de pastas são revisados antes de alterar.
 
@@ -33,11 +33,11 @@ Escolha algo pequeno e real. Reabra a nota no Obsidian. Ela deve ter os quatro p
 
 ## 5. Avance pelo seu ritmo
 
-Use `/oferta expresso` para organizar a oferta; `/pesquisa` ou `/concorrentes` para perguntas de mercado; `/direcao-visual` para prévia e identidade aprovada; `/pagina` para HTML local. Cada etapa lê o projeto anterior. No modo completo, retome em outras sessões sem repetir a entrevista.
+Use `/ oferta expresso` para organizar a oferta; `/ pesquisa` ou `/ concorrentes` para perguntas de mercado; `/ direcao-visual` para prévia e identidade aprovada; `/ pagina` para HTML local. Cada etapa lê o projeto anterior. No modo completo, retome em outras sessões sem repetir a entrevista.
 
 Para página, abra apenas a pasta site em outra janela do VS Code, nunca o vault inteiro, e use Live Server. Formulário sem integração é demonstração, não envio. Publicação não faz parte da oficina.
 
-Ao terminar, `/tldr` deixa o registro. Em outro dia, `/diario` ajuda a retomar mesmo que ainda exista pouco histórico.
+Ao terminar, `/ tldr` deixa o registro. Em outro dia, `/ diario` ajuda a retomar mesmo que ainda exista pouco histórico.
 
 ## Se algo travar
 

@@ -12,7 +12,7 @@ Prepare VS Code, Obsidian, Claude Code e Live Server pelo [guia de preparação]
 
 1. Baixe o ZIP desta versão pelo GitHub (Code → Download ZIP), extraia numa pasta nova e abra a pasta que contém LEIA-ME.md no VS Code.
 2. Abra essa mesma pasta como cofre no Obsidian. Não misture com acervo pessoal existente.
-3. No painel do Claude Code, use `/setup`, revise o perfil e confirme antes de salvar.
+3. No painel do Claude Code, use `/ setup`, revise o perfil e confirme antes de salvar.
 4. Peça: **“Crie o primeiro projeto do meu negócio usando meu perfil. Registre o que ofereço, para quem, qual problema resolve e qual objetivo. Mostre para eu revisar antes de salvar.”**
 5. Reabra a nota salva. Ela será a base para oferta, pesquisa, visual e página HTML local, conforme o ritmo da turma.
 
